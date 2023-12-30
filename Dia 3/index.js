@@ -6,3 +6,4 @@ console.log("==============CONSTANTE===========")
 const NomeCompleto = 'Danilo Jose de Souza Araujo'
 console.log(NomeCompleto)
 
+
