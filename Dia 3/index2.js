@@ -1,17 +1,17 @@
-let Nome = ""
-let Idade = 0
-let Altura = 0
-let Peso = 0
 
-Nome = prompt("Insira seu Nome")
-Idade = parseInt(prompt("Insira sua Idade"))
-Altura = parseFloat(prompt("Insira sua Altura"))
-Peso = parseInt(prompt("Insira seu Peso"))
-
+let Nome = prompt("Insira seu Nome")
+let Idade = Number(prompt("Insira sua Idade"))
+let Altura = Number(prompt("Insira sua Altura"))
+let Peso = Number(prompt("Insira seu Peso"))
 
 let anoDeNascimento = 0
 anoDeNascimento =(2023 - Idade)
+console.log("Ano de Nascimento")
+console.log(anoDeNascimento)
 
 let IMC = 0
 IMC = Peso / (Altura * Altura)
+console.log("IMC")
+console.log(IMC)
 
+console.log("Olá " + Nome + ", você tem "+ Idade +" anos, nasceu em " + anoDeNascimento +" , tem " + Altura +" de altura, pesa " + Peso +" Kg seu IMC é " + IMC +" Kg/m2 ")
